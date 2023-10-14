@@ -1,0 +1,247 @@
+/*Big Size Screens*/
+@media (min-width: 1200px)
+{
+
+}
+
+/* small Screens & tablets & Smart phone */
+@media (max-width: 991px) 
+{
+	
+	.header .logo
+	{
+		margin-left:0
+	}
+	
+	.header .logo img
+	{
+		max-width:150px
+	}
+	
+	.slider .the-slider-control
+	{
+		display:none
+	}
+	
+	.open-menu
+	{
+		display:block
+	}
+	
+	.header .searchHeader
+	{
+		margin-top:45px
+	}
+	
+	.about
+	{
+		text-align:center
+	}
+	
+	.about .img 
+	{
+		width:auto;
+		height:auto;
+		display:inline-block;
+		margin-bottom:20px
+	}
+	
+	.about a
+	{
+		float:none;
+		display:inline-block
+	}
+	
+	.litters .owl-theme .owl-controls .owl-buttons div
+	{
+		right:0;
+		opacity:0.5
+	}
+	
+	.litters .owl-theme .owl-controls .owl-buttons div.owl-prev
+	{
+		left:0
+	}
+	
+	footer
+	{
+		text-align:center
+	}
+	
+	footer .contactFooter li
+	{
+		margin-bottom:20px
+	}
+	
+	footer .contactFooter li i
+	{
+		float:none;
+	}
+	
+	footer .contactFooter li p
+	{
+		width:100%;
+		float:none;
+		text-align:center
+	}
+	
+
+	footer .FormFooter .formFloat
+	{
+		width:100%;
+		float:none
+	}
+	
+	footer .FormFooter h2
+	{
+		float:none;
+		margin-top:35px;
+		margin-bottom:20px
+	}
+	
+	
+	footer .FormFooter .formFloat input
+	{
+		padding-left:15px
+	}
+	
+	footer .FormFooter .formFloat button
+	{
+		position:relative;
+		width:100%
+	}
+	
+	footer .footerDown p,
+	footer .footerDown ul,
+	footer .footerDown a.logoServer
+	{
+		float:none
+	}
+	
+	footer .footerDown ul
+	{
+		margin-top:20px;
+		margin-bottom:20px
+	}
+	
+	footer .footerDown ul li 
+	{
+		float:none;
+		display:inline-block
+	}
+	
+	footer .logoServer
+	{
+		display:block;
+		margin-top:15px
+	}
+	
+	.ProductPage img,
+	.AboutPage .img
+	{
+		margin-bottom:20px
+	}
+	
+	.ProductPage .productContent p
+	{
+		max-width:100%
+	}
+	
+
+	.Clients p
+	{
+		margin-top:40px
+	}
+	
+	.AboutPage,
+	.Clients,
+	.ProductPage
+	{
+		text-align:center
+	}
+	
+	.contactUs .formStyle
+	{
+		padding-left:15px;
+		padding-right:15px
+	}
+	
+	
+}
+
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	
+	
+}
+
+/* Mobile & Tablets */
+@media (max-width: 767px) 
+{
+	.slider .home-slider .slider-details
+	{
+	    padding-top: 215px;
+	    padding-bottom: 125px;
+	}
+	
+	.slider,
+	.slider .home-slider img
+	{
+	    height: 413px;
+	}
+	
+	.slider .home-slider .slider-details p
+	{
+		font-size: 17px;;
+		line-height: 44px;
+    	padding: 0 15px;
+	}
+	
+	.bx-wrapper .bx-pager.bx-default-pager
+	{
+		bottom:28px
+	}
+}
+
+/* Tablets */
+@media (min-width:480px) and (max-width: 767px)
+{
+
+}
+
+/* Mobile */
+@media (max-width: 479px) 
+{
+	.header
+	{
+		text-align: center
+	}
+	
+	.header .logo
+	{
+		float:none;
+		display:block;
+		text-align:center
+	}
+	
+	.header .searchHeader
+	{
+		float:left;
+		display:inline-block;
+		margin-top:47px
+	}
+	
+	.header .searchHeader i
+	{
+		font-size:20px;
+		top:-2px
+	}
+	
+	.header .open-menu
+	{
+		float:right;
+	}
+	
+	
+}
